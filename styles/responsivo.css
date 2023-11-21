@@ -32,6 +32,8 @@
 
     main .main_info {
         height: 100%;
+        
+        text-align: center;
     }
 
     main .main_info div {
