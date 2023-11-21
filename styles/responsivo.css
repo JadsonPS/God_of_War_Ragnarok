@@ -1,0 +1,49 @@
+@media screen and (max-width: 1000px) {
+    body #app {
+        
+        height: 100%;
+        
+        /*  */
+
+    }
+
+    header {
+        padding: 10px 20px;
+        margin-bottom: 0;
+        overflow: scroll;
+    }
+    main {
+        /* background-color: rgba(0, 255, 13, 0.267); */
+        height: auto;
+        flex-direction: column;
+    }
+
+    main #personagem, #omega {
+        
+        max-width: 100%;
+    }
+
+    main #logo_gowr{
+        max-width: 100%;
+        margin-top: -100px;
+    }
+
+   
+
+    main .main_info {
+        height: 100%;
+    }
+
+    main .main_info div {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 10px;
+    }
+
+    .snowing{
+        height: 200%;
+        overflow: hidden;
+    }
+
+   
+}

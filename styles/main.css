@@ -1,0 +1,122 @@
+main {
+    flex: 1;/*  */
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+    max-width: 1200px;
+    position: relative;
+    transition: opacity 1s;
+    padding: 14px ;
+/* background-color: rgba(255, 0, 0, 0.37);  */
+    
+}
+
+#personagem{
+    z-index: -1;
+    max-width: auto;
+    max-height: 640px;
+    
+}
+
+
+#omega{
+    scale: 1.2;
+    position: absolute;
+    z-index: -3;
+    opacity: 0.8;
+}
+
+
+#logo_gowr{
+    transition: scale 2s;
+}
+
+#logo_gowr:hover{
+    scale: 1.1;
+    
+}
+
+.main_info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 570px;
+/* background-color: rgb(0, 255, 115); */
+/* scale: 0.4; */
+height: 100%;
+}
+
+.main_info p {
+    font-size: 18px;
+    text-align: justify;
+}
+
+.main_info div {
+    display: flex;
+    column-gap: 32px;
+    width: 100%;
+/* background-color: red; */
+}
+
+.main_info #text_caract{
+    margin: 10px 0 14px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main_info #text_caract h2{
+    font-size: 30px;
+    color: var(--gray);
+}
+
+.main_info div a, .main_info div button{
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 3px;
+
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+
+    transform: skew(-10deg); /*  */
+    
+}
+
+
+.main_info div a {
+    background: var(--blue);
+    transition: all 0.4s;
+    border: 1px solid transparent;
+}
+.main_info div a:hover {
+    background: transparent;
+    border: 1px solid var(--gray);
+}
+
+
+.main_info div #character {
+    background: transparent;
+    border: 1px solid var(--gray);
+    transition: all 0.4s;
+}
+.main_info div #character:hover {
+    background: var(--blue);
+    
+    border: 1px solid transparent;
+}
+
+
+audio {
+    background-color: red;
+    display: none;
+    /* display: none; */
+}
+
+
