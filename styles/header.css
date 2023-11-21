@@ -34,8 +34,20 @@ header #playButton {
     /* border: 1px solid var(--gray); */
     border: none;
 
+    animation: atencao 2s alternate-reverse;
+    animation-iteration-count: infinite;
     font-size: 24px;
 }
+@keyframes atencao {
+    from{
+        scale: 1.2;
+    }
+    to {
+        scale: 0.8;
+        color: var(--blue);
+    }
+}
+
 
 .navigation {
     display: flex;
